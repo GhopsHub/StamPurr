@@ -3,7 +3,7 @@ import Home from "./pages/Home"
 
 function App() {
   return (
-    <BrowserRouter basename="/Cuart">
+    <BrowserRouter basename="/StamPurr">
       <div className="page-wrapper">
         <Routes>
           <Route path="/" element={<Home />} />

@@ -1,4 +1,4 @@
-import cuarlogo from "../assets/images/cuart.png"
+import cuarlogo from "../assets/images/StamPurr.png"
 	
 	
 export default function Home() {

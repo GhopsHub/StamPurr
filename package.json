@@ -1,9 +1,9 @@
 {
-  "name": "cuart",
+  "name": "stampurr",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://GhopsHub.github.io/Cuart",
+  "homepage": "https://GhopsHub.github.io/StamPurr",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
