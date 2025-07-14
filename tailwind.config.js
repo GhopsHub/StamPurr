@@ -7,10 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        champion: ['ChampionGothic'],
         vintage: ['MagicVintage'],
-        obviously: ['Obviously'],
-        sans: ['DMSans'],
       },
     },
   },
