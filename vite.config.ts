@@ -6,8 +6,9 @@ export default defineConfig({
   base: '/StamPurr/',
   plugins: [react()],
   resolve: {
-    alias: {
-      '@': path.resolve(__dirname, 'src'),
-    },
+  alias: {
+  '@': path.resolve(__dirname, 'src/js'),
+}
   },
 })
+

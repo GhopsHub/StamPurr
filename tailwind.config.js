@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        vintage: ['MagicVintage'],
+        AntonSC: ['AntonSC'],
+        Ultra: ['Ultra'],
       },
     },
   },
