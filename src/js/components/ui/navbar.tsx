@@ -2,23 +2,26 @@ import { useState } from 'react';
 import { Link } from "react-router-dom";
 import logo from '../../../assets/images/stampurr.png';
 import { Menu } from 'lucide-react';
+import NamePage from '../assets/namepage';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className=" relative shadow-md bg-beige h-14">
-     <div className="flex items-center justify-between h-14 px-2 sm:px-4">
+      <div className="flex items-center justify-between h-14 px-2 sm:px-4">
+
         {/* Logo */}
-        <Link to="/">
+        <Link to="/" className="flex items-center justify-center gap-2">
           <img src={logo} alt="Logo" className="h-10 w-auto" />
+          <NamePage />
         </Link>
 
         {/* Menú escritorio */}
         <ul className="hidden sm:flex gap-8 text-xl">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/products/">Products</Link></li>
-          <li><Link to="/aboutus/">About us</Link></li>
+          <li><Link to="/aboutus/">About Us</Link></li>
           <li><Link to="/contact/">Contact</Link></li>
         </ul>
 
