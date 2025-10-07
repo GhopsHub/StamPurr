@@ -1,7 +1,7 @@
 import { TextRotate } from "../components/animations/TextRotate/text-rotate";
 import { LayoutGroup, motion } from "framer-motion";
-import product1 from "../../assets/images/products/product1.webp";
-import product2 from "../../assets/images/products/product2.webp";
+// import product1 from "../../assets/images/products/product1.webp";
+// import product2 from "../../assets/images/products/product2.webp";
 
 export default function Home() {
   return (
@@ -24,14 +24,14 @@ export default function Home() {
             <motion.div layout>
               <TextRotate
                 texts={[
-                  "choices",
-                  "gifts",
-                  "🐾🐾🐾",
-                  "treasures",
-                  "treats",
-                  "😺😺",
-                  "additions",
-                  "surprises",
+                  // "choices",
+                  // "gifts",
+                  // "🐾🐾🐾",
+                  // "treasures",
+                  // "treats",
+                  // "😺😺",
+                  // "additions",
+                  // "surprises",
                   "test",
                 ]}
                 mainClassName="text-white bg-amber-900 px-3 py-1.5 rounded-lg overflow-hidden flex justify-center items-center"
@@ -53,7 +53,7 @@ export default function Home() {
         {/* Quiénes somos */}
         <section className="flex flex-col md:flex-row items-center justify-center gap-6">
           <img
-            src={product1}
+            src={""}
             alt="Product 1"
             loading="lazy"
             className="w-[300px] sm:w-[320px] md:w-[310px] lg:w-[380px] xl:w-[400px] h-auto rounded-xl"
@@ -74,7 +74,7 @@ export default function Home() {
         {/* Nuestro propósito */}
         <section className="flex flex-col md:flex-row-reverse items-center justify-center gap-6">
           <img
-            src={product2}
+            src={""}
             alt="Product 2"
             loading="lazy"
             className="w-[300px] sm:w-[320px] md:w-[310px] lg:w-[380px] xl:w-[400px] h-auto rounded-xl"
