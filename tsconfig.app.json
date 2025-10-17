@@ -27,5 +27,5 @@
   },
   "include": [
     "src"
-  ]
+, "src/js/components/assets/.namepage.tsx"  ]
 }

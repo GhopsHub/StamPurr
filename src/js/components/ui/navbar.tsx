@@ -7,14 +7,17 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="top-0 left-0 right-0 shadow-md transition-all duration-300 h-28 sm:h-25">
+    <nav
+      className="top-0 left-0 right-0 shadow-md transition-all duration-300 h-28 sm:h-25"
+      style={{ backgroundColor: "rgb(241, 90, 41)" }}
+    >
       <div className="relative flex flex-col items-center justify-center h-full">
         {/* Botón menú siempre visible (izquierda) */}
         <button
           onClick={() => setIsOpen(true)}
-          className="absolute left-3 top-1/2 -translate-y-1/2"
+          className="absolute left-3 top-1/2 -translate-y-1/2 "
         >
-          <Menu size={28} />
+          <Menu size={28} color="white" />
         </button>
 
         {/* Logo centrado */}
@@ -30,7 +33,10 @@ export default function Navbar() {
         } z-50`}
       >
         {/* Header del sidebar */}
-        <div className="flex items-center justify-between h-14 mt-7 px-4 border-b border-gray-200">
+        <div
+          className="flex items-center justify-between h-28 px-4 border-b border-gray-200 text-white bg-"
+          style={{ backgroundColor: "rgb(241, 90, 41)" }}
+        >
           <p className="text-lg font-semibold">Menú</p>
           <button onClick={() => setIsOpen(false)}>
             <X size={26} />

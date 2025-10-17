@@ -1,4 +1,4 @@
-import namelogo from "../../../assets/images/namelogo.png";
+import namelogo from "../../../assets/images/name.png";
 
 export default function NameMoreLogo() {
   return (
@@ -6,8 +6,8 @@ export default function NameMoreLogo() {
       <img
         src={namelogo}
         alt="namemorelogo"
-        className="h-16 sm:h-20 md:h-20 lg:h-24 w-auto" // Logo en negro
-        // className="h-20 w-auto m-5 invert brightness-200" //Logo en blanco
+        // className="h-16 sm:h-20 md:h-20 lg:h-24 w-auto" // Logo en negro
+        className="h-20 w-auto m-5 invert brightness-200" //Logo en blanco
       />
     </div>
   );
